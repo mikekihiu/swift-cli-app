@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:udacity}",
+            "name": "Debug udacity",
+            "program": "${workspaceFolder:udacity}/.build/debug/udacity",
+            "preLaunchTask": "swift: Build Debug udacity"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:udacity}",
+            "name": "Release udacity",
+            "program": "${workspaceFolder:udacity}/.build/release/udacity",
+            "preLaunchTask": "swift: Build Release udacity"
+        }
+    ]
+}
